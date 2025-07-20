@@ -1,0 +1,10 @@
+[general]
+[env]
+EDITOR = "nvim"
+VISUAL = "nvim"
+VIRTUAL_ENV_DISABLE_PROMPT = "true"
+FZF_DEFAULT_OPTS_FILE = "/home/fox/.config/fzf_config.ini"
+JAVA_HOME = "/usr/lib/jvm/default"
+SPACEFISH_PROMPT_FIRST_PREFIX_SHOW = "true"
+SPACEFISH_TIME_SHOW = "true"
+SPACEFISH_DATE_SHOW = "true"
