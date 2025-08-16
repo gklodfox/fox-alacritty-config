@@ -1,10 +1,64 @@
-[general]
-[env]
-EDITOR = "nvim"
-VISUAL = "nvim"
-VIRTUAL_ENV_DISABLE_PROMPT = "true"
-FZF_DEFAULT_OPTS_FILE = "/home/fox/.config/fzf_config.ini"
-JAVA_HOME = "/usr/lib/jvm/default"
-SPACEFISH_PROMPT_FIRST_PREFIX_SHOW = "true"
-SPACEFISH_TIME_SHOW = "true"
-SPACEFISH_DATE_SHOW = "true"
+[colors.primary]
+background = '#1f282e'
+foreground = '#d1dbe0'
+
+# Normal colors
+[colors.normal]
+black = '#0d0d0d'
+red = '#db7079'
+green = '#79db70'
+yellow = '#dbdb70'
+blue = '#70afdb'
+magenta = '#a670db'
+cyan = '#70dbc1'
+white = '#f2f2f2'
+
+# Bright colors
+[colors.bright]
+black = '#0d0d0d'
+red = '#db7079'
+green = '#79db70'
+yellow = '#dbdb70'
+blue = '#70afdb'
+magenta = '#a670db'
+cyan = '#70dbc1'
+white = '#f2f2f2'
+
+# Search colors
+[colors.search.matches]
+foreground = '#ff007b'
+background = '#0d0d0d'
+
+[colors.search.focused_match]
+foreground = '#0d0d0d'
+background = '#ff007b'
+
+# Selection colors
+[colors.selection]
+background = '#ff007b'
+text = '#0d0d0d'
+
+# Cursors
+# If you don't want to override original behavior, which is nice,
+# remove [colors.cursor] and [colors.vi_mode_cursor].
+[colors.cursor]
+cursor = '#ff007b'
+text = '#0d0d0d'
+
+[colors.vi_mode_cursor]
+cursor = '#ff007b'
+text = '#0d0d0d'
+
+[colors.footer_bar]
+foreground = '#ff007b'
+background = '#0d0d0d'
+
+# Purple color
+[[colors.indexed_colors]]
+index = 93
+color = '#a670db'
+
+# Fluo Colors
+[[colors.indexed_colors]]
+index = 198
+color = '#ff007b'
