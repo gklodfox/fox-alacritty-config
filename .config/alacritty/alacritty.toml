@@ -1,5 +1,9 @@
+# Flow colorscheme | Alacritty
+# https://github.com/0xstepit/flow.nvim
+
+# Black and white
 [colors.primary]
-background = '#1f282e'
+# background = '#1f282e'
 foreground = '#d1dbe0'
 
 # Normal colors
@@ -62,3 +66,5 @@ color = '#a670db'
 [[colors.indexed_colors]]
 index = 198
 color = '#ff007b'
+[window]
+decorations = "Transparent"
