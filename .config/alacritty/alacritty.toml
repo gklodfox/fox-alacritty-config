@@ -1,6 +1,9 @@
 [general]
 import = ["flow_theme.toml"]
 
+[terminal]
+shell = { program = "/bin/fish", args = ["-l"]}
+
 [env]
 EDITOR = "nvim"
 TERMINAL = "alacritty"
@@ -9,6 +12,16 @@ BROWSER = "qutebrowser"
 VIRTUAL_ENV_DISABLE_PROMPT = "true"
 I3BLOCKS_CONTRIB_DIR = "$HOME/.config/i3/i3blocks-contrib"
 KOTFILES_PATH = "$HOME/.kotfiles"
+TERM = "tmux-256color"
 
 [window]
-decorations = "Transparent"
+decorations = "Full"
+dynamic_padding = false
+
+[font]
+normal = { family = "Iosevka Fox v2", style = "Regular" }
+bold = { family = "Iosevka Fox v2", style = "Bold" }
+italic = { family = "Iosevka Fox v2", style = "Italic" }
+bold_italic = { family = "Iosevka Fox v2", style = "Bold Italic" }
+size = 16
+builtin_box_drawing = true
