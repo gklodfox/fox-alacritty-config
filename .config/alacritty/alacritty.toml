@@ -23,5 +23,5 @@ normal = { family = "Iosevka Fox v2", style = "Regular" }
 bold = { family = "Iosevka Fox v2", style = "Bold" }
 italic = { family = "Iosevka Fox v2", style = "Italic" }
 bold_italic = { family = "Iosevka Fox v2", style = "Bold Italic" }
-size = 16
+size = 11
 builtin_box_drawing = true
