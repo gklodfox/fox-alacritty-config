@@ -3,8 +3,8 @@
 
 # Black and white
 [colors.primary]
-background = '#1f282e'
-foreground = '#94aab8'
+background = '#021015'
+foreground = '#EF0074'
 
 # Normal colors
 [colors.normal]
